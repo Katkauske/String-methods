@@ -6,7 +6,8 @@ let zodis2 = "kompIUTtEris";
 console.log(arVienodiNepaisantDydziu(zodis1, zodis2))
 
 function arVienodiNepaisantDydziu(zodis1,zodis2)  {
-    if (zodis1 == zodis2) {
+    
+    if (zodis1.toLocaleLowerCase() == zodis2.toLocaleLowerCase()) {
         return "Zodziai lygus nepaisant simboliu dydziu skirtumu."
     }
     else {
